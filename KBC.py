@@ -31,13 +31,11 @@ for i in range(len(questions)):
 
     # Check the answer and update points
     if a == ans:
-        print("Correct Answer")
+        print("Correct Answer\n")
         total_points += points_per_question
     else:
         print("Oops, Wrong Answer")
         break  # Exit the loop on the first wrong answer
-
-    print()  # Add a line break after each question
 
 # Display total points earned
 print(f"Total Points Earned: {total_points}")
